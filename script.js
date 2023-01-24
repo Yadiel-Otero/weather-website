@@ -42,12 +42,14 @@ let weather = {
 //It wont let me add an event listener so i'll need to add "defer" to the script
 //so it runs at the end
 
+//Search weather on SEARCH button click
 document
 .querySelector(".search button")
 .addEventListener("click", function (){
     weather.search();
 });
 
+//Search weather on ENTER keypress
 document
 .querySelector(".search-bar")
 .addEventListener("keydown", function(event){
